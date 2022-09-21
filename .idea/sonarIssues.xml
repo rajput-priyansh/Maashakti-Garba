@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="issues">
+    <option name="index">
+      <map>
+        <entry key="/Dummy.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/vibs/maashakti/FileUtil.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/vibs/maashakti/FirstFragment.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/vibs/maashakti/MainActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/vibs/maashakti/ScanCardAactivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/vibs/maashakti/ScanCardActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/vibs/maashakti/ScanNfcActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/vibs/maashakti/SecondFragment.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/vibs/maashakti/SplashscreenActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/vibs/maashakti/TestScanActicity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/vibs/maashakti/TestScanActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/vibs/maashakti/WeatherRepository.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/vibs/maashakti/WeatherViewModel.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/vibs/maashakti/api/ApiResponse.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/vibs/maashakti/api/LiveDataCallAdapter.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/vibs/maashakti/api/LiveDataCallAdapterFactory.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/vibs/maashakti/api/NetworkBoundResource.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/vibs/maashakti/api/Resource.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/vibs/maashakti/api/RetrofitApiService.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/vibs/maashakti/api/RetrofitClient.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/vibs/maashakti/api/Status.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/vibs/maashakti/api/WeatherApiService.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/vibs/maashakti/api/models/Error.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/vibs/maashakti/api/models/ErrorResponse.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/vibs/maashakti/api/models/RequestCard.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/vibs/maashakti/api/models/ResponseForecast.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/vibs/maashakti/api/models/ResponseVerifyUser.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/vibs/maashakti/api/models/ResponseWeather.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/vibs/maashakti/base/BaseActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/vibs/maashakti/base/BaseFragment.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/vibs/maashakti/base/StartActivityCallback.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/vibs/maashakti/dialog/BnBConfirmationDialog.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/vibs/maashakti/dialog/BnBConfirmationDialogListener.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/vibs/maashakti/dialog/BnBShowMessageDialog.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/vibs/maashakti/dialog/NoInternetDialog.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/vibs/maashakti/dialog/ProgressDialog.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/vibs/maashakti/dialog/UserConfirmationDialog.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/vibs/maashakti/nfc/NfcIntentActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/vibs/maashakti/nfc/TagHelper.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/vibs/maashakti/zoom_image/ZoomPhotoFragmentDialog.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/vibs/maashakti/zoom_image/ZoomPhotosAdapter.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/vibs/maashakti/zoom_image/zoomage/ZoomageView.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/drawable/bg_rounded_border.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/drawable/grey_editext.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_call_24.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_card_giftcard_24.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_person_24.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_qr_code_24.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_scan_nfc.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_splashscreen.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/dialog_show_message.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/dialog_user_info.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/dialog_yes_no_choice.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/fragment_first.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/fragment_second.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/fragment_zoom_photo.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/item_zoom_photo.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/navigation/nav_graph.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/values-night/themes.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/values/attrs.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/values/colors.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/values/themes.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/xml/nfc_tech_filter.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/gradle.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/settings.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/StudioProjects/NfcDemo/app/src/main/java/com/andresjakl/nfcdemo/MainActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/StudioProjects/bnb-consumer-app/androidApp/Prod/release/output-metadata.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/StudioProjects/bnb-consumer-app/app/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/StudioProjects/bnb-consumer-app/app/src/main/java/com/bricknbolt/consumer/android/BBAHomeActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/StudioProjects/bnb-consumer-app/app/src/main/java/com/bricknbolt/consumer/android/fragments/BBPreSalesHomeFragment.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/StudioProjects/bnb-consumer-app/app/src/main/java/com/bricknbolt/consumer/android/fragments/BBToolsFragment.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/StudioProjects/bnb-consumer-app/app/src/main/java/com/bricknbolt/consumer/android/pre_sales_home/DesignChangePreSalesHomeFragment.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/StudioProjects/bnb-consumer-app/app/src/main/java/com/bricknbolt/consumer/android/pre_sales_home/adapters/DesignChangePostSalesHomeFragment.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/StudioProjects/bnb-consumer-app/bnb-auth/src/main/java/com/bricknbolt/auth/activity/ProfileActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/StudioProjects/bnb-consumer-app/bnb-auth/src/main/res/layout/fragment_signup.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/StudioProjects/bnb-consumer-app/bnb-config/src/main/java/com/bricknbolt/config/ApiConfig.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/StudioProjects/bnb-consumer-app/bnb-inspection/src/main/java/com/bricknbolt/inspection/fragments/BottomSheetBBChecksFragmentList.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/StudioProjects/bnb-consumer-app/bnb-inspection/src/main/java/com/bricknbolt/inspection/fragments/CheckListDetailBottomSheetFragment.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/StudioProjects/bnb-consumer-app/bnb-inspection/src/main/res/layout/fragment_bottom_sheet_quality_checks.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/StudioProjects/bnb-consumer-app/bnb-inspection/src/main/res/values/strings.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/StudioProjects/bnb-consumer-app/bnb-work-schedule/src/main/java/com/bricknbolt/consumer/bnb_work_schedule/BottomSheetBBChecksFragmentList.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/StudioProjects/bnb-consumer-app/common/src/main/java/com/bricknbolt/common/activities/BBWebActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/StudioProjects/bnb-consumer-app/common/src/main/java/com/bricknbolt/common/bnb_base/BnBBaseFragment.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/StudioProjects/bnb-consumer-app/common/src/main/res/layout/raise_or_queries_comp.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/StudioProjects/bnb-consumer-app/common/src/main/res/values/strings.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/StudioProjects/bnb-consumer-app/floorplan/src/main/java/com/bricknbolt/consumer/floorplan/FloorPlansActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/StudioProjects/bnb-ext-contractor-app/bnb-common/src/main/res/values/colors.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/StudioProjects/bnb-ext-contractor-app/bnb-common/src/main/res/values/strings.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/StudioProjects/bnb-ext-contractor-app/bnb-workforce/src/main/res/drawable/ic_worker_leader.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/StudioProjects/bnb-ext-contractor-app/floorplan/build.gradle.kts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/StudioProjects/bnb-ext-contractor-app/floorplan/src/main/res/layout/fragment_floor_plan_details.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/StudioProjects/bnb-ext-contractor-app/settings.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/StudioProjects/tonuino-nfc-tools/app/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/StudioProjects/tonuino-nfc-tools/app/src/main/AndroidManifest.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/StudioProjects/tonuino-nfc-tools/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/a.dummy">
+          <value>
+            <set />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

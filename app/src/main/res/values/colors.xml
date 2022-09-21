@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#ffbb2c</color>
+    <color name="purple_500">#ffbb2c</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#7a090e</color>
+    <color name="teal_700">#7a090e</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+    <color name="light_blue_A200">#FF40C4FF</color>
+    <color name="light_blue_A400">#FF00B0FF</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="maroon">#7a090e</color>
+    <color name="gold">#ffbb2c</color>
+    <color name="grey_eff0f6">#EFF0F6</color>
+    <color name="textGrey">#6E7191</color>
+    <color name="textDark">#1A1617</color>
+
+    <!-- Here you can add color of your choice  -->
+    <color name="ucrop_color_toolbar">@color/purple_200</color>
+    <color name="ucrop_color_statusbar">@color/purple_200</color>
+    <color name="ucrop_color_widget_active">@color/teal_200</color>
+</resources>

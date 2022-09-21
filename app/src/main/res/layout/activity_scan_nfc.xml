@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey_eff0f6">
+
+
+    <!--<pl.droidsonroids.gif.GifImageView
+        android:background="#fff"
+        android:src="@drawable/ic_anim_scan_card"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_220sdp"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>-->
+
+
+    <ImageView
+        android:src="@drawable/ic__nfc_card_scan"
+        android:layout_width="@dimen/_220sdp"
+        android:layout_height="@dimen/_220sdp"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+
+
+    <TextView
+        android:id="@+id/tvScanCard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/scan_card"
+        android:layout_marginBottom="@dimen/_16sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColor="@color/textDark"
+        android:visibility="gone"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Maa Shakti Pass</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Maa Shakti Pass</string>
+    <string name="second_fragment_label">Create Player Card</string>
+    <string name="next">Next</string>
+    <string name="create_new_pass">Create New Pass</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="lbl_connection_error">Connection Error</string>
+    <string name="lbl_connection_error_sub_message">Oops! Seems You Don’t Have An Active Internet Connectivity</string>
+    <string name="lbl_retry">Retry</string>
+    <string name="lbl_message_location">Please turn on location</string>
+    <string name="lbl_change_location">Change Location</string>
+    <string name="title_activity_splashscreen">SplashscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="enter_mobile_number">Enter Mobile Number</string>
+    <string name="enter_last_name">Enter Last Name</string>
+    <string name="enter_first_name">Enter First Name</string>
+
+    <string name="lbl_camara">Camera</string>
+    <string name="lbl_gallery">Gallery</string>
+    <string name="upload_user_photo">Upload User Photo</string>
+
+    <string name="can_not_connect_to_camera">Cannot Connect To Camera</string>
+    <string name="can_not_upload_more_than_one_image">Can not uplaode more than one image</string>
+    <string name="save">Save Card</string>
+    <string name="scan_card">Scan Card</string>
+    <string name="lbl_cancel">Cancel</string>
+    <string name="paid">Paid</string>
+    <string name="gift">Gift</string>
+    <string name="scan_nfc_code">Scan NFC Code</string>
+    <string name="check_pass">Check Pass</string>
+
+    <!--nfc-->
+
+    <string name="nfc_tag_found">Tag %s gefunden</string>
+    <string name="nfc_read_tag_failure">Error: Could not read data from NFC tag</string>
+    <string name="nfc_tag_technologies">"Device and tag support these technologies:\n%s"</string>
+    <string name="nfc_tag_type">Tag technology: \n%s</string>
+    <string name="nfca_not_ok">NfcA transceive returned \'%s\' instead of OK (\'A\')</string>
+
+    <string name="identify_unknown_type">unknown</string>
+    <string name="identify_unsupported_type">unsupported</string>
+
+    <!-- Strings on ReadActivity -->
+    <string name="read_title">Tag %s</string>
+    <string name="read_intro">Read data</string>
+    <string name="read_edit_button">Edit</string>
+    <string name="lbl_nfc_code">NFC Code</string>
+    <string name="lbl_gift_by">Gift By</string>
+    <string name="gift_by">Gift By:</string>
+    <string name="lbl_mobile_no">Mobile No:</string>
+    <string name="lbl_nsc_code">NSC Code:</string>
+</resources>
