@@ -161,7 +161,7 @@
             android:layout_marginEnd="@dimen/_8sdp"
             android:layout_weight="1"
             tools:text="@string/lbl_cancel"
-            android:visibility="gone"/>
+            android:visibility="visible"/>
 
         <Button
             android:id="@+id/btnYes"

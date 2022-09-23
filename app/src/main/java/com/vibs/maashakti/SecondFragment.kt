@@ -26,6 +26,7 @@ import com.github.dhaval2404.imagepicker.ImagePicker
 import com.vibs.maashakti.api.Status
 import com.vibs.maashakti.base.StartActivityCallback
 import com.vibs.maashakti.databinding.FragmentSecondBinding
+import com.vibs.maashakti.utils.ViewExtensions.capitalizeWords
 import com.vibs.weatherdemosdk.base.BaseFragment
 import com.vibs.weatherdemosdk.base.PermissionCallback
 import okhttp3.MediaType.Companion.toMediaTypeOrNull
@@ -250,7 +251,7 @@ class SecondFragment : BaseFragment(R.layout.fragment_second) {
                     .toRequestBody("multipart/form-data".toMediaTypeOrNull())
             }
 
-            val passType = if (binding.rbPaid.isChecked) "Paid" else "Gift"
+            val passType = if (binding.rbPaid.isChecked) "Paid" else "Gift By ${binding.etGiftBy.text?.trim().toString().capitalizeWords()}"
 
             map["pass_type"] = passType.toRequestBody("multipart/form-data".toMediaTypeOrNull())
 

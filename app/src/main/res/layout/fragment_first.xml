@@ -7,8 +7,33 @@
     tools:context=".FirstFragment"
     android:background="@color/grey_eff0f6">
 
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/etSearch"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/grey_editext"
+        android:layout_marginHorizontal="@dimen/_16sdp"
+        android:layout_marginTop="@dimen/_16sdp"
+        app:queryHint="Search"
+        app:queryBackground="@android:color/transparent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvPass"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        tools:itemCount="5"
+        android:layout_marginTop="@dimen/_8sdp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etSearch"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:listitem="@layout/item_player_pass"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
     <ImageView
-        android:id="@+id/textview_first"
+        android:id="@+id/ivMaaShakti"
         android:layout_width="@dimen/_120sdp"
         android:layout_height="@dimen/_120sdp"
         android:src="@drawable/maashakti_app_logo"
@@ -26,7 +51,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textview_first" />
+        app:layout_constraintTop_toBottomOf="@id/ivMaaShakti" />
 
     <Button
         android:id="@+id/buttonCheck"
@@ -39,4 +64,15 @@
         android:visibility="gone"
         app:layout_constraintTop_toBottomOf="@id/button_first" />
 
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/groupCreate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:constraint_referenced_ids="buttonCheck, button_first, ivMaaShakti"/>
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/groupCardList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:constraint_referenced_ids="etSearch, rvPass"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

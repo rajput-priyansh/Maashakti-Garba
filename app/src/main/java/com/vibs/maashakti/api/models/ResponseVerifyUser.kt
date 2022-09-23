@@ -28,6 +28,9 @@ data class ParticipantData(
 	@field:SerializedName("pass_id")
 	val passId: String? = null,
 
+	@field:SerializedName("pass_type")
+	val passType: String? = null,
+
 	@field:SerializedName("user_nfc_no")
 	val userNfcNo: String? = null,
 

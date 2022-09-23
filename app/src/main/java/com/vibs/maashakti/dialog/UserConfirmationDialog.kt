@@ -57,13 +57,13 @@ class UserConfirmationDialog(private val mCallBAck: BnBConfirmationDialogListene
             binder.tvUserContact.text = userInfo.userContactNo ?: ""
             binder.tvNfcNo.text = userInfo.userNfcNo ?: ""
 
-            if (userInfo.giftBy.isNullOrEmpty()) {
+            if (userInfo.passType.isNullOrEmpty()) {
                 binder.tvGiftBy.visibility = View.GONE
                 binder.lblGiftBy.visibility = View.GONE
             } else {
                 binder.tvGiftBy.visibility = View.VISIBLE
                 binder.lblGiftBy.visibility = View.VISIBLE
-                binder.tvGiftBy.text = userInfo.giftBy
+                binder.tvGiftBy.text = userInfo.passType
             }
 
             userInfo.userPhotoUrl?.let { image_url ->

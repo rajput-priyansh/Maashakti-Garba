@@ -13,9 +13,11 @@ import android.view.MenuItem
 import android.widget.Toast
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.NavController
+import androidx.navigation.fragment.findNavController
 import com.vibs.maashakti.api.Status
 import com.vibs.maashakti.databinding.ActivityMainBinding
 import com.vibs.maashakti.nfc.NfcIntentActivity
+import com.vibs.maashakti.utils.PreferenceManager
 import okhttp3.MediaType.Companion.toMediaTypeOrNull
 import okhttp3.RequestBody
 import okhttp3.RequestBody.Companion.toRequestBody
@@ -86,6 +88,10 @@ class MainActivity : NfcIntentActivity(), MainListener {
         appBarConfiguration = AppBarConfiguration(navController.graph)
         setupActionBarWithNavController(navController, appBarConfiguration)
 
+        binding.fab.setOnClickListener {
+            navController.navigate(R.id.action_FirstFragment_to_SecondFragment)
+        }
+
         val nfcAdapter = NfcAdapter.getDefaultAdapter(this)
 
         if (nfcAdapter == null) {
@@ -114,7 +120,7 @@ class MainActivity : NfcIntentActivity(), MainListener {
                         "Player Info!",
                         item,
                         "Okay",
-                        "",
+                        "Delete",
                         false
                     )
                 }
@@ -143,7 +149,13 @@ class MainActivity : NfcIntentActivity(), MainListener {
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
         return when (item.itemId) {
-            R.id.action_settings -> true
+            R.id.action_logout -> {
+                PreferenceManager.clearPrefs()
+                startActivity(Intent(this@MainActivity, LoginActivity::class.java).apply {
+                    flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
+                })
+                true
+            }
             else -> super.onOptionsItemSelected(item)
         }
     }

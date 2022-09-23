@@ -12,11 +12,17 @@ import androidx.core.app.ActivityCompat
 import androidx.fragment.app.Fragment
 import com.vibs.maashakti.api.models.ParticipantData
 import com.vibs.maashakti.base.BaseActivity
+import com.vibs.maashakti.base.NetworkReceiver
 import com.vibs.maashakti.base.StartActivityCallback
 import com.vibs.maashakti.dialog.*
 
 
 open class BaseFragment(private val resLayout: Int) : Fragment(resLayout) {
+
+    val isNetworkConnected: Boolean
+        get() {
+            return NetworkReceiver.isNetworkConnected(requireContext())
+        }
 
     companion object{
         const val DIALOG_MESSAGE = "DIALOG_MESSAGE"
